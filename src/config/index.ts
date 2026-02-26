@@ -1,97 +1,109 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Kamran Rafiq — Full-Stack Engineer | AI SaaS | MERN | Laravel | Open AI | Dev-Ops",
+  author: "Kamran Rafiq",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Full-Stack Engineer | AI SaaS | MERN | Laravel | Open AI | Dev-Ops with 5+ years of experience building scalable SaaS products. Specializing in AI-powered features, OpenAI integrations, and cloud deployments.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/profile-pic-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/kamran-rafiq-810a9a27a/" },
+    { text: "Github", href: "https://github.com/kamranrafiq022" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://kamranrafiq022.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Kamran Rafiq",
+    specialty: "Full-Stack Engineer | AI SaaS | MERN | Laravel | Open AI | Dev-Ops",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Full-Stack Engineer with 5+ years of experience building scalable SaaS products using MERN and Laravel. I specialize in AI-powered features, OpenAI integrations, and automation systems. Based in Lahore, Pakistan — open to remote roles.",
+    email: "Kamranrafiq022@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Pure Logics",
+      position: "Senior Full Stack Engineer | Dev-Ops",
+      startDate: "2024",
+      endDate: "Jan 2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Led full-stack development and managed cloud deployments, optimizing CI/CD pipelines to deliver scalable, high-performance applications.",
+        "Architected and maintained production infrastructure on VPS and cloud platforms, ensuring high availability and reliable deployments.",
+        "Collaborated with cross-functional teams to deliver robust features, improving system performance and developer productivity.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Systems LTD",
+      position: "Full Stack Engineer",
+      startDate: "2023",
+      endDate: "2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Contributed to the Foodpanda dashboard application, building scalable features and efficient REST APIs using React.js and Laravel.",
+        "Worked closely with product and design teams to translate requirements into reliable, maintainable code across the full stack.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Trisage Solutions",
+      position: "MERN Stack Developer",
+      startDate: "2021",
+      endDate: "2023",
+      summary: [
+        "Developed scalable web applications using MongoDB, Express.js, React, and Node.js for a variety of client projects.",
+        "Built efficient REST APIs with clean, maintainable code and contributed to architecture decisions that improved long-term scalability.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Available Trades",
+      summary:
+        "A full-stack online marketplace connecting homeowners with local tradespeople across the UK. Features include user onboarding, job posting, bidding, profiles, and admin controls.",
+      linkPreview: "https://availabletrades.co.uk/",
+      linkSource: "https://github.com/kamranrafiq022",
+      image: "/avbtrade.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Krub.ai",
+      summary:
+        "An AI-driven platform featuring intelligent automation, real-time data processing, and seamless user experiences. Built with full-stack development, backend logic, and OpenAI integrations.",
+      linkPreview: "https://krub.ai",
+      linkSource: "https://github.com/kamranrafiq022",
+      image: "/krub.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "SeeBiz Inventory",
+      summary:
+        "A comprehensive wholesale inventory management platform for tracking stock, managing invoices, and streamlining warehouse operations across multiple locations.",
+      linkPreview: "https://seebiz.com/inventory",
+      linkSource: "https://github.com/kamranrafiq022",
+      image: "/seebiz.jpg",
+    },
+    {
+      name: "Yoder Smokers",
+      summary:
+        "Developed an admin portal to manage products and sync the database with WooCommerce, streamlining inventory management and online sales for the e-commerce platform.",
+      linkPreview: "https://yodersmokers.com",
+      linkSource: "https://github.com/kamranrafiq022",
+      image: "/yoder.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Kamran Rafiq — a Full-Stack Engineer with 5+ years of experience building scalable SaaS products using MERN and Laravel. I specialize in AI-powered features, OpenAI integrations, and automation systems that solve real business problems.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I have a strong background in REST APIs, online marketplaces, secure payment integrations (Stripe, Mangopay), and cloud deployments on AWS and DigitalOcean. I enjoy working with remote teams, writing clean code, and delivering fast, reliable products that make a real impact.
+
+      My tech stack includes JavaScript (ES6+), TypeScript, React.js, Next.js, Node.js, Express.js, Laravel, MongoDB, MySQL, and PostgreSQL. I hold a Bachelor's degree in Computer Science from the National University of Computer and Emerging Sciences (FAST-NUCES), Lahore.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/profile-pic.png",
   },
 };
 
